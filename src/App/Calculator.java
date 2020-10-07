@@ -1,3 +1,5 @@
+package App;
+
 import java.util.Scanner;
 
 public class Calculator {
@@ -13,6 +15,6 @@ public class Calculator {
         System.out.println("Enter a number for any of the above: ");
         int input = scan.nextInt();
 
-        
+
     }
 }

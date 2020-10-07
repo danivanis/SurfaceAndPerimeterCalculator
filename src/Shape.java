@@ -4,23 +4,14 @@ public class Shape {
     private double side1, side2, side3;
     private double radius;
 
-    public Shape(double enteredLength, double enteredWidth){
-        length = enteredLength;
-        width = enteredWidth;
-    }
 
-    public Shape(double enteredLength){
-        length = enteredLength;
-    }
-
-    public Shape(double enteredRadius){
-        radius = enteredRadius;
-    }
-
-    public Shape(double enteredSide1, double enteredSide2, double enteredSide3){
-        side1 = enteredSide1;
-        side2 = enteredSide2;
-        side3 = enteredSide3;
+    public Shape (double enteredLength, double enteredWidth, double enteredRadius, double enteredSide1, double enteredSide2, double enteredSide3){
+        this.length = enteredLength;
+        this.width = enteredWidth;
+        this.radius = enteredRadius;
+        this.side1 = enteredSide1;
+        this.side2 = enteredSide2;
+        this.side3 = enteredSide3;
     }
 
     public double getLength() {
